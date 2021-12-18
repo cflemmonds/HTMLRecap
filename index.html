@@ -5,30 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Recap: Tell me about your hobbies</title>
+    <title>HTML Recap: Hobby Exchange</title>
 </head>
 
-<body>
-    <h1>iframe</h1>
-    <div>
-        <p>Allow me to begin by sharing my interests; then you will have an opportunity to share!</p>
-        <p>I am a lover of anime; sub, never dub. Lofi hip hop beats are an infinite vibe.</p>
-        <p>Put em both together, and you've got me summed up. A laid back individual who loves anything that contributes
-            to the mood.</p>
-        <p>Wanna see an example?</p>
-        <iframe width="841" height="480" src="https://www.youtube.com/embed/6JgWOo_ju1E" title="YouTube video player"
+<body style="background-color: gray;">
+    <nav style="text-align: right;">
+        <a href="https://stockx.com/air-jordan-6-retro-carmine-2020" target="_blank">See my favorite Jordan Retros (and, yes I own a pair XD)</a>
+        <a href="https://open.spotify.com/playlist/37i9dQZF1E8A2cw4m6XvV1?si=a7586d5f824041b1" target="_blank">What I am currently listening to</a>
+        <a href="https://www.youtube.com/watch?v=4rhY_mpYYKQ" target="_blank">My forever mood</a>
+    </nav>
+    <h1 style="background-color: navy; text-align: center;">A little about me</h1>
+    <div style="background-color: goldenrod; text-align: center;">
+        <p style="text-align: center;">Allow me to begin by sharing my interests; then you will have an opportunity to
+            share! Lover of anime; sub, never dub. Lofi hip hop beats are an infinite vibe. Put em both together, and
+            you've got me summed up.
+            A laid back individual who loves anything that contributes to the mood.</p>
+        <p style="text-align: center;">Wanna visual?</p>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/6JgWOo_ju1E" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
             <!--In order to emded youtube videos, you "must" use the embed code. The URL will not work!-->
         </iframe>
+
+        <!-- <br> -->
+        <p style="text-align: center;">Akuma main; Do you even SFA3, bro?</p>
+        <iframe width="300" height="150" src="https://www.youtube.com/embed/8ulnHjyWxK0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
-    <br>
-    <br>
     <hr>
 
-    <h1>Now it's your turn!</h1>
-    <p>Here's your opportunity to make yourself known. Hope we can introduce one another to new things!</p>
+    <h1 style="background-color: maroon; text-align: center;">Now it's your turn!</h1>
+    <p>Here's your opportunity to share your own interests. It is my hope that we can introduce one another to new
+        things!
+    </p>
+    <p>
+        First name:
+        <input type="text">
+    </p>
+    <p>
+        Last initial:
+        <input>
+    </p>
+    <fieldset>
+        <legend>Preferred mode of entertainment:</legend>
+        <p>
+            <input type="checkbox">
+            <label for="books">Books</label>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label for="tv">Television</label>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label for="cinema">Movies</label>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label for="music">Music</label>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label for="vg">Video Games</label>
+        </p>
+        <p>
+            <input type="checkbox">
+            <label for="pod">Podcast</label>
+        </p>
+    </fieldset>
+    <form>
+        <fieldset>
+            <legend>If you had to recommend one, what would it be?</legend>
+            <p>
+                <label for="show">Television Show:</label>
+                <input>
+            </p>
+            <p>
+                <label for="movie">Movie</label>
+                <input>
+            </p>
+            <p>
+                <label for="music">Record Album:</label>
+                <input>
+            </p>
+            <p>
+                <label for="vg_series">Video Game Series:</label>
+                <input>
+            </p>
+            <p>
+                <label for="podcast">Podcast</label>
+                <input>
+            </p>
+            <p>
+                <label for="books">Book Genre/Series</label>
+                <input>
+            </p>
+        </fieldset>
+    </form>
+
 </body>
 
 </html>
